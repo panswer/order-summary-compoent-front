@@ -1,0 +1,6 @@
+p {
+    color: var(--color-neutral-desaturated-blue);
+    margin-top: 1rem;
+    font-weight: var(--font-weight2);
+    font-size: .9rem;
+}

@@ -1,0 +1,8 @@
+<div class="card-item">
+    <app-item-image class="image" [image]="music?.image" ></app-item-image>
+    <app-item-title class="title" *ngIf="music?.title" [text]="music?.title" ></app-item-title>
+    <app-item-price class="price" *ngIf="music?.price" [price]="music?.price"></app-item-price>
+    <div class="item-link">
+        <a href="#" class="link">change</a>
+    </div>
+</div>

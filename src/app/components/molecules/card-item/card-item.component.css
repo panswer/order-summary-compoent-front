@@ -1,0 +1,40 @@
+.card-item {
+    background-color: var(--color-neutral-very-pale-blue);
+    padding: 1rem;
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: "icon songName link""icon songPrice link";
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item>.image {
+    grid-area: icon;
+}
+
+.card-item>.title {
+    grid-area: songName;
+
+}
+
+.card-item>.price {
+    grid-area: songPrice;
+    color: var(--color-neutral-desaturated-blue);
+}
+
+.card-item>.item-link {
+    grid-area: link;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.card-item>.item-link>a,
+.card-item>.item-link>a:hover,
+.card-item>.item-link>a:active,
+.card-item>.item-link>a:link {
+    text-transform: capitalize;
+    color: var(--color-primary-bright-blue);
+}

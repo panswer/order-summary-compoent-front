@@ -1,0 +1,14 @@
+.container-main {
+    background-color: var(--color-primary-pale-blue);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 355px;
+    border-radius: 20px;
+    overflow: hidden;
+}
