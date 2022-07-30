@@ -13,6 +13,7 @@
     /* Primary */
     --color-primary-pale-blue: hsl(225, 100%, 94%);
     --color-primary-bright-blue: hsl(245, 75%, 52%);
+    --color-primary-bright-blue-transparent: hsla(245, 75%, 52%, .6);
     /* Neutral */
     --color-neutral-very-pale-blue: hsl(225, 100%, 98%);
     --color-neutral-desaturated-blue: hsl(224, 23%, 55%);

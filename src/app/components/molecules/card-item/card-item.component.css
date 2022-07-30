@@ -38,3 +38,7 @@
     text-transform: capitalize;
     color: var(--color-primary-bright-blue);
 }
+.card-item>.item-link>a:active{
+    text-decoration: none;
+    color: var(--color-primary-bright-blue-transparent);
+}
